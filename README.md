@@ -1,2 +1,5 @@
 # NextFullStack
- react+next(13)+typescript+tailwind+sanity(CMS)+SWR+Vercel+node
+
+react+next(13)+typescript+tailwind+sanity(CMS)+SWR+Vercel+node
+
+# TypeScript by default
