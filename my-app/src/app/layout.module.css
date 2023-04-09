@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 3px solid #132f52;
+}
+
+.nav a {
+  padding: 0px 8px;
+}
+
+.redborder {
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px;
+  border-color: red;
+}
