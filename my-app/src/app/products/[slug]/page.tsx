@@ -1,6 +1,8 @@
 import { getProduct, getProducts } from '@/service/product';
 import { notFound } from 'next/navigation';
 
+export const revalidate = 3;
+
 //! props 안에 params
 type Props = {
   params: {
