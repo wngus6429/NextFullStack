@@ -11,6 +11,7 @@ export default async function ProductsPage() {
   const products = await getProducts();
   const res = await fetch('https://meowfacts.herokuapp.com', {
     next: { revalidate: 3 },
+    // cache: 'no-store' 이것도 SSR처럼 된다.
     // SSG를 ISR로 이렇게 활용할수 있다.
     // 값을 0으로 하면 요청할떄마다 바뀜, SSR으로 되는거지
   });
