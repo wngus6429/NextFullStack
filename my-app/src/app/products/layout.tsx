@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './layout.module.css';
+import { Metadata } from 'next/types';
 
 export const metadata: Metadata = {
   title: '멋진 제품 사이트 | 전체 제품 확인',
