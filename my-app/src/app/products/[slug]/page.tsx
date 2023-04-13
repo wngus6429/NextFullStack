@@ -1,5 +1,7 @@
+import GoProductButton from '@/components/GoProductButton';
 import { getProduct, getProducts } from '@/service/product';
-import { notFound } from 'next/navigation';
+import Image from 'next/image';
+import { notFound, redirect } from 'next/navigation';
 
 export const revalidate = 3;
 
@@ -22,10 +24,18 @@ export default async function ProductPage({ params: { slug } }: Props) {
   // }
   const product = await getProduct(slug);
   if (!product) {
-    notFound();
+    redirect('/products'); // 없는 주소로 들어가면 여기로
+    // notFound();
   }
   // 서버 파일에 있는 데이터중 해당 제품의 정보를 찾아서 그걸 보여줌
-  return <h1>{product.name}페이지</h1>;
+  return (
+    <>
+      <h1>{product.name}페이지</h1>;
+      <Image src={product.image} alt={product.name} height={600} width={380} />
+      {/* 서버 컴포넌트라서 onCLick같은 이벤트를 사용 할수 없어서 클라 컴포넌트로 뺐다. */}
+      <GoProductButton />
+    </>
+  );
 }
 
 //! 밑에 이렇게 함으로서 페이지 미리생성이 가능하다.

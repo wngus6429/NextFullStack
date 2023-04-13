@@ -5,6 +5,7 @@ export type Product = {
   id: string;
   name: string;
   price: number;
+  image: string;
 };
 
 // 이름을 ts로 함으로 인해 순수 로직만 담긴것을 표시

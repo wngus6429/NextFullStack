@@ -2,16 +2,19 @@
   {
     "id": "1234",
     "name": "청바지255",
-    "price": 5000
+    "price": 5000,
+    "image": "https://ac.namu.la/20230412sac/d469051fb2ee46e98e5816a4146bfbad03b20f18b0026817f1e47e1c56d14012.png?expires=1681354151&key=CxenM8m9rchGUpGzGb0UoA"
   },
   {
     "id": "2234",
     "name": "티셔츠3",
-    "price": 53000
+    "price": 53000,
+    "image": "https://ac.namu.la/20230412sac/1cf0dab31c272e29d4763d7c1e63560254da38a938592908e8827fd90febe030.png?expires=1681354151&key=8sejHb1kFT0O4AJ7DiJUlw"
   },
   {
     "id": "3234",
     "name": "비키니",
-    "price": 50500
+    "price": 50500,
+    "image": "https://ac.namu.la/20230412sac/846d7ea331ce3427acd5b273693e68874809f506b03884126b40ecec23276311.png?expires=1681354151&key=ZPPnFMk9EvY5MXNAWcklXA"
   }
 ]
