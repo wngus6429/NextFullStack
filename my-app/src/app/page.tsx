@@ -14,7 +14,7 @@ export default function Home() {
   console.log(os.hostname());
   return (
     <>
-      <h1>홈페이지 버전2</h1>
+      <h1>홈페이지 버전5</h1>
       <Counter />
       <Image
         src='https://ac.namu.la/20230412sac/547d6d5dc7bc6e247cd774f027034281a77438576ae9b4d12d201b4680d4ae68.png?expires=1681321642&key=6XLGs2rUAVbpSUKPVQge_A'
